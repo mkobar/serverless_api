@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "eightbitfish-testing",
+  "private_key_id": "f1ed3cd6699ca83e049a4ed575eba58acf43aece",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCyDPrD9HLxXoSY\nSLK9ViyBTBeaiac+4gGpGHcS8luJlWsIX/jtCmggIk/Uti5e97L66/2ikC6pDlC/\n2fZ6wg380vrWO0i4XRsqALXkZ3KGX3BwMwVmTuwFCR3UISo6b//uVcjHFyxAGQU2\nSOrn+LmFQCeB4Rp/ZBdtxjReRgeunL7nPaYo9XJus8ZDhsc10up7oPi0+j3EZlAk\nh/Cw39mf/NIA5Qe7qFLqy1+Fz0Lj1pntDEX4qUEU5E42kr5IRCblnF/cIziMKpqt\nqitelFyiFMGkkCiiAMn7xYAz0CO29WIeP4BMCngDfI0k2+//wmKrBUAitaWx1pPt\nkPJoPe5JAgMBAAECggEAHgcDWX3FzsAGc5o7DqRUUB/xkR3q5zd9WTOnjTnzRxI8\nYUayN+O76MNwnCp3SovSku+usDZJsDgaVSigoVZNvpgkNnH8Ex+cn6pMAq+RiGjb\nEQkBvZ3MvxKpBafsM7vEuUCdYjodu9ecYenNN/7h5r+JiiVY7ygFrX0yQr3juMYs\n8zaGRSIyRRDP2IkmomRUeErpHTKEywwoeN6AN0bUzCXLggaU9KAIUQ715yO6qoWO\nqYmohYJVhb6yP4k3+jD+Q5ITAMf2wRTBD6+hlnr8iOEpu1Kcxv0l7U1IcOgJEDoC\n6d8e76zg1GtZoUttk6IZpTcxY0S7uAPcGrLfGjLNEwKBgQDySLm46uLphd33NtiB\nc+ppUSIinzZ4XtP4E6ErxHX+4diKctk7UoJ6Pa+XLeSQhQOCNGY7m0UpWaEJTK7m\nZdSikdvbnwvgUc20i3USJ22DPAzKf/ctUqxkdNz0qAAAZMe48s7GmjBiiZzZknAE\nsYjZ21iM+ilxHXASlkrnegfxuwKBgQC8IVvtEKnp2UenJ/0xlQs9TEe/R4OWwhgX\n89ViUM8STDdlcycYdX5ZtepSFir574xc2Lt8v1Lzs23LjM1OYmJZqTN4ADLWW0mo\n0yCVAMzLV5urBVIXbSoO3emJEzJPw17F4cWwTqQXvTO+iTCpZWrl7W4f87k4rHPY\nCR0G7vRNywKBgEBqNXaEfG+5t5nSax1/xALcH0c1LTYzgAeksGUChpyNTxUAE+FB\nvo7hd52qBeqmcphbdhLC5VBpE/d0+8slp7LRNLLfRjkNhrNJoIaDFQqfHId6Hi1e\nnZbXuycQw29XXAJAC9mhhNut2pW96SpWSRwixRg2Km54dSN78c45E4OhAoGAA5aX\nTEQ/GWi9hyCqIaH4HukvjSRuDBgToZFTBpcH/A9cFyFFI6BKEqf3mi02EKJTCQpR\nOSXlDSTk+TbsS4xw18j0ZFuMnK4ND51HR9BGF7LKE078q9m3LaVp6OVm1kKhsiCG\nRsCZPKKtM/sl5HU8vrnymcVqSPxxETPLS/CO1FUCgYEAmvl9uWr8Ib4NaST8sm2f\nUwcNZN7UO4088jEYNzIta/EqOTN5qn04qFSfd/37Nai/tXKBkxuTEYos7Vighwp5\nzbhtxZrLxcbnbQHsk1pIy4EBeBn7+AITSrg2JtF+KEiX5ry3CgZQPoyppx1OHe/O\n4u/F7gOyr1Bci6I+AyOBULo=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-wxqyo@eightbitfish-testing.iam.gserviceaccount.com",
+  "client_id": "113206453206883543859",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-wxqyo%40eightbitfish-testing.iam.gserviceaccount.com"
+}
