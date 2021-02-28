@@ -10,12 +10,11 @@ exports.handler = async (event, context) => {
 
   const db = admin.firestore()
 
-  let username = event.queryStringParameters.username
-  let password = event.queryStringParameters.password
+  let email = event.queryStringParameters.email
+  let uid = event.queryStringParameters.uid
 
-  const res = await db.collection("users").add({
-    username: username,
-    password: password,
+  const res = await db.collection("users").doc(uid).set({
+    email: email,
     fishes: [],
   })
 

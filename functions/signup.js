@@ -19,13 +19,20 @@ exports.handler = async (event, context) => {
   const email = event.queryStringParameters.email
   const password = event.queryStringParameters.password
 
-  firebase
+  let uid = null
+
+  await firebase
     .auth()
     .createUserWithEmailAndPassword(email, password)
     .then(creds => {
-      console.log(creds.user.uid)
+      uid = creds.user.uid
     })
     .catch(err => {
       console.log(err.message)
     })
+
+  return {
+    statusCode: 200,
+    body: JSON.stringify({ userID: uid }),
+  }
 }
