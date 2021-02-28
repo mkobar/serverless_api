@@ -2,8 +2,8 @@ const cloudinary = require("cloudinary").v2
 const fs = require("fs")
 
 exports.handler = async (event, context) => {
-  let base64String = event.queryStringParameter.b64
-  let uuid = event.queryStringParameter.uuid
+  let base64String = event.queryStringParameters.baseString
+  let uuid = event.queryStringParameters.uuid
 
   let base64Image = base64String.split(";base64,").pop()
 
@@ -31,3 +31,12 @@ exports.handler = async (event, context) => {
     body: JSON.stringify({ imageURL: x.url }),
   }
 }
+
+// exports.handler = async (event, context) => {
+//   let name = event.queryStringParameters.name
+
+//   return {
+//     statusCode: 200,
+//     body: JSON.stringify({ ping: name }),
+//   }
+// }
