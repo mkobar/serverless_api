@@ -5,6 +5,8 @@ exports.handler = async (event, context) => {
   let base64String = event.queryStringParameter.b64
   let uuid = event.queryStringParameter.uuid
 
+  let base64Image = base64String.split(";base64,").pop()
+
   fs.writeFile(
     `${uuid}.png`,
     base64Image,
