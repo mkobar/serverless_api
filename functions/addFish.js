@@ -10,17 +10,23 @@ exports.handler = async (event, context) => {
 
   const db = admin.firestore()
 
-  userId = event.queryStringParameters.userID
+  //fishID = event.queryStringParameters.fishID
 
-  fish = {
-    mergedImage: event.queryStringParameters.mergedImage,
-    backgroundImage: event.queryStringParameters.backgroundImage,
-    hasBackground: event.queryStringParameters.hasBackground,
+  let userID = event.queryStringParameters.userID
+
+  const fish = {
+    fishID: event.queryStringParameters.fishID,
+    name: event.queryStringParameters.name,
     rarity: event.queryStringParameters.rarity,
-    fishType: event.queryStringParameters.fishType,
-    fishColor: event.queryStringParameters.fishColor,
-    attributes: event.queryStringParameters.attributes,
-    traits: event.queryStringParameters.traits,
+    rarityIndex: event.queryStringParameters.rarityIndex,
+    color: event.queryStringParameters.color,
+    AccessoryA: event.queryStringParameters.AccessoryA,
+    AccessoryB: event.queryStringParameters.AccessoryB,
+    AccessoryC: event.queryStringParameters.AccessoryC,
+    AccessoryD: event.queryStringParameters.AccessoryD,
+    numberOfAccessories: event.queryStringParameters.numberOfAccessories,
+    image: event.queryStringParameters.image,
+    bgimage: event.queryStringParameters.bgimage,
   }
 
   const userRef = await db.collection("users").doc(userID)
