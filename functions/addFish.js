@@ -10,8 +10,10 @@ exports.handler = async (event, context) => {
 
   const db = admin.firestore()
 
+  userId = event.queryStringParameters.userID
+
   fish = {
-    mergedImage: event.queryStringParameters.mergedImag,
+    mergedImage: event.queryStringParameters.mergedImage,
     backgroundImage: event.queryStringParameters.backgroundImage,
     hasBackground: event.queryStringParameters.hasBackground,
     rarity: event.queryStringParameters.rarity,
